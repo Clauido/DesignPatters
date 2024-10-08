@@ -1,0 +1,14 @@
+Cómo Implementar factory??
+1. - Declarar una Clase/Interfaz base, esto será lo que retornará la clase factory y sus subclases
+2. - Implementar productos concretos sub clases que hereden/implementen la clase/interfaz base
+3. - Declarar la fábrica de tipo clase/Interfaz que retorne los objetos que sean instancias la clase base, no la clase concreta
+4. - Implementar Fábricas concretas (SubClases) que Hereden/Implementen la clase/Interfaz base De las Fábricas. Estas clases retornaran las instancias la clase Base no de las concretas
+
+
+¿ Como se ven involucrados los principios S.O.L.I.D ?
+
+- Single Responsability: Se tiene la creación de objetos en un solo lugar(Las Fábricas)
+- Open-Close: Esta forma de implementación permite estar abierto a la extensión y cerrado a la modificación
+- Liskov Substitution: Si remplezamos las clase hijas por la de sus padres no tendremos de cumpliento de métodos, funciones, etc.
+- Interfaz Segregation: Las clases solo heredan/Implementan los métodos necesario y no se ven obligado a implementar nada que no les correspondan
+- Dependencie Inverseion: Los objetos retornados por los fábricas no dependen de las clases concretas si no de las clases abstractas

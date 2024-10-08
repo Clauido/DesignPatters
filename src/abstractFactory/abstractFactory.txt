@@ -1,0 +1,4 @@
+1. Declarar Clases base/interfaces por cada uno de los productos
+2. Implementar clases producto concretas que hereden/implementen clases/interfaces bases de productos por cada uno de los tipos de familia
+3. Declarar la clase base/interfaz **Abstract Factory** que delcare métodos de creación por cada uno de los productos(Clases Base)
+4. Crear fábricas concretas que implementen todos los métodos de creación en la **Abstract Factory**

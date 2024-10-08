@@ -1,0 +1,2 @@
+1. Hacer el constructor privado
+2. Crear un método estático que llame al constructor privado(en caso de que la instancia no esté creada) o retorne la variable estática

@@ -1,0 +1,4 @@
+- Cliente : Aquella parte que contiene la lógica de negocio
+- La interfaz del cliente(Target): La interfaz que utilizará el cliente para comunicarse con la parte del sistema a modificar
+- Adaptive: La clase que quiere utilizar el cliente pero no puede por la incompatibilidad de interfaces
+- Adaptador: Este adaptador cumple con la interfaz del cliente y obvio actua como adaptador entre el cliente y el adaptive
